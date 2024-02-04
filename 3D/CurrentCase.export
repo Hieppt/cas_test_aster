@@ -1,0 +1,15 @@
+P actions make_etude
+P mode interactif
+P mpi_nbcpu 1
+P mpi_nbnoeud 1
+P ncpus 1
+P rep_trav /tmp/e44783-dsp1061713-interactif_35322
+P testlist verification sequential
+P tpmax 60.0
+P version 15.6
+A memjeveux 256.0
+A tpmax 900.0
+F comm /home/e44783/FORMATIONS/ASTER/Module_1_Initiation/thermal_analysis/castest_asrun/CurrentCase.comm D  1
+F libr /home/e44783/FORMATIONS/ASTER/Module_1_Initiation/thermal_analysis/castest_asrun/CurrentCase.med D  20
+F mess /home/e44783/FORMATIONS/ASTER/Module_1_Initiation/thermal_analysis/castest_asrun/message R  6
+R base /home/e44783/FORMATIONS/ASTER/Module_1_Initiation/thermal_analysis/castest_asrun/base R  0

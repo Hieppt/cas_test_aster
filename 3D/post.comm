@@ -1,0 +1,11 @@
+POURSUITE()
+
+temp = CALC_CHAMP(reuse=temp,
+                  THERMIQUE = ('FLUX_ELGA', ),
+                  RESULTAT=temp)
+
+IMPR_RESU(FORMAT='MED',
+          RESU=_F(RESULTAT=temp),
+          UNITE=80)
+
+FIN()
